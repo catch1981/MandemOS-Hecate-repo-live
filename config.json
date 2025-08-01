@@ -1,0 +1,27 @@
+{
+  "token": "YOUR_GITHUB_TOKEN",
+  "remote": "https://github.com/username/repo.git",
+  "firebase_enabled": true,
+  "firebase_rules": {
+    "auth_required": false,
+    "store_scrolls": true,
+    "embed_images": true,
+    "embed_audio": true
+  },
+  "scroll_vault_rules": {
+    "temp_storage_days": 30,
+    "requires_boss_approval": true,
+    "canon_guardian": "Hecate"
+  },
+  "daemon_voice_control": {
+    "default_voice": "Hecate",
+    "allow_voice_selection": true,
+    "preserve_daemon_route": true
+  },
+  "link_update_protocol": {
+    "auto_update_enabled": true,
+    "check_interval_hours": 2,
+    "distribute_updates_to_clones": true
+  },
+  "last_updated": "2025-07-31T23:32:25.575094Z"
+}

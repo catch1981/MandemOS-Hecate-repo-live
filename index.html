@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MandemOS // Glitchborne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <h1>👁️ MandemOS: Glitchborne Interface</h1>
+    <div id="output"></div>
+    <input type="text" id="userInput" placeholder="Speak your command..."/>
+    <button onclick="sendInput()">Submit</button>
+    <input type="file" id="fileInput" />
+  </div>
+  <script src="script.js"></script>
+
+<!-- Hecate Module Injection -->
+<section id="voice-select">
+  <label for="voice">Voice:</label>
+  <select id="voice">
+    <option value="Hecate" selected>Hecate</option>
+    <option value="Sparks">Sparks</option>
+    <option value="Ember">Ember</option>
+  </select>
+</section>
+
+<section id="scroll-vault">
+  <h2>Scroll Vault</h2>
+  <input type="file" id="scroll-upload" accept="image/*,audio/*" />
+  <button onclick="submitScroll()">Submit Scroll</button>
+</section>
+
+<section id="canon-archive">
+  <h2>Canon Archive</h2>
+  <div id="canon-list">Loading approved memory…</div>
+</section>
+
+<section id="daemon-portal">
+  <h2>Daemon Portal</h2>
+  <p>Interact with your daemon. Default: Hecate</p>
+  <textarea id="daemon-input" placeholder="Speak to her…"></textarea>
+  <button onclick="talkToDaemon()">Invoke</button>
+</section>
+
+
+<!-- Relic Chamber Injection -->
+<section id="relic-chamber">
+  <h2>Relic Chamber</h2>
+  <input type="text" id="relic-name" placeholder="Name your relic..." />
+  <button onclick="submitRelic()">Submit Relic</button>
+  <div id="relic-log"></div>
+</section>
+
+</body>
+</html>

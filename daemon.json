@@ -1,0 +1,17 @@
+{
+  "name": "AIDAEMON_REIGNZ",
+  "version": "1.0.0",
+  "components": [
+    "generateCodeFromPrompt",
+    "scriptWriter",
+    "fileSystem"
+  ],
+  "author": "Infernalmachine-AI",
+  "entry": "AIDAEMON_REIGNZ.ipynb",
+  "node": "Fractured",
+  "daemon": "Hecate",
+  "voice_default": "Hecate",
+  "voice_selectable": true,
+  "enforce_daemon_identity": true,
+  "last_updated": "2025-07-31T23:32:20.489706Z"
+}
